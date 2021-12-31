@@ -1,0 +1,16 @@
+header{
+    background: url(/public/img/Escudos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+header h1{
+    Color: rgb(173, 49, 211);
+    font-family: 'Italianno', cursive;
+    font-size: 3em;
+    font-weight: 100;
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+    
+}

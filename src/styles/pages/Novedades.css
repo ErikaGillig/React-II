@@ -1,0 +1,90 @@
+.card-text{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: violet
+}
+.card-title {
+    font-family: 'Italianno', cursive;
+    font-size: 250%;
+    text-align: center;
+    color: rgb(106, 204, 250)
+}
+.titulo {
+    font-family: 'Italianno', cursive;
+    font-size: 250%;
+    text-align: center;
+    color: rgb(250, 106, 207)
+    }
+    
+.noticias{
+        width: 30%;
+        max-width: 700px;
+        height: 200px;
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+        margin-left: 55px;
+        margin-bottom: 500px;
+    }
+.noticias img{
+        width: 600px;
+        height: 400px;
+    }
+
+.noticias h1{
+    font-family: 'Italianno', cursive;
+    font-size: 250%;
+    text-align: left;
+    color: rgb(156, 106, 250)
+}
+
+form {
+    margin: 0 auto;
+    width: 500px;
+    padding: 1em;
+    border: 1px solid rgb(183, 0, 255);
+    border-radius: 1em;
+}
+  
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+form li + li {
+    margin-top: 1em;
+  }
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+
+input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid rgb(74, 0, 248);
+  }
+
+input:focus, textarea:focus {
+    border-color: #000;
+  }
+
+textarea {
+    vertical-align: top;
+  
+    height: 5em;
+  }
+
+.button {
+    margin-left: 100px;
+}
+
+button {
+    margin-top: 25px;
+    margin-left: 5em;
+}
